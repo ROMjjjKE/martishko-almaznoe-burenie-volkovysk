@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Мартишко — алмазное бурение отверстий в Волковыске. Ø 30–350 мм в дереве, газоблоке, кирпиче, бетоне, железобетоне</title>
+<meta name="description" content="Бурение отверстий алмазной станцией в Волковыске: дерево, газоблок, кирпич, бетон, армированный бетон. Диаметры от 30 до 350 мм. Без удара и лишней пыли. ИП Мартишко Ф.И. Тел +375 29 141-48-56. Цена договорная.">
+<script>window.__ok=0;</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--cop:#B87333;--copH:#9A5E26;--copL:#D29A63;--copT:rgba(184,115,51,.12);--ink:#1A1714;--ink2:#231E19;--conc:#F4F1EC;--conc2:#EAE4DB;--mut:#8A8074;--mut2:#6B6258;--line:rgba(26,23,20,.12);--lined:rgba(244,241,236,.14);--disp:'Philosopher',Georgia,serif;--sans:'Exo 2',system-ui,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--sans);background:var(--conc);color:var(--ink);overflow-x:hidden;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.disp{font-family:var(--disp);font-weight:700;line-height:1.12}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+::selection{background:var(--cop);color:#fff}
+.mono{letter-spacing:.14em}
+.wm{position:fixed;inset:0;z-index:9998;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='460' height='300'%3E%3Ctext x='40' y='150' font-size='26' fill='%234338ca' opacity='.10' font-family='monospace' transform='rotate(-24 40 150)'%3ESiteFast.by%3C/text%3E%3C/svg%3E")}
+.wbadge{position:fixed;right:14px;bottom:14px;z-index:9999;background:#4338ca;color:#fff;font:700 11px/1 var(--sans);padding:7px 10px;border-radius:6px;opacity:.85}
+.cur-dot,.cur-ring{display:none}
+@media(pointer:fine){.cur-dot{display:block;position:fixed;z-index:10000;width:7px;height:7px;border-radius:50%;background:var(--copL);pointer-events:none;transform:translate(-50%,-50%)}.cur-ring{display:block;position:fixed;z-index:10000;width:36px;height:36px;border-radius:50%;border:1.5px solid rgba(184,115,51,.55);pointer-events:none;transform:translate(-50%,-50%);transition:width .25s,height .25s}.cur-ring.big{width:60px;height:60px}}
+.wrap{max-width:1220px;margin:0 auto;padding:0 28px}
+header{position:fixed;top:0;left:0;right:0;z-index:900;background:rgba(26,23,20,.93);backdrop-filter:blur(10px);border-bottom:1px solid var(--lined)}
+.hrow{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 28px;max-width:1220px;margin:0 auto;min-height:72px}
+.logo{display:flex;align-items:center;gap:12px;color:var(--conc);flex:none}
+.logo .ring{width:38px;height:38px;border-radius:50%;border:3.5px solid var(--cop);display:flex;align-items:center;justify-content:center;color:var(--copL);font-family:var(--disp);font-size:20px;font-weight:700;animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.logo .lg-t{font-family:var(--disp);font-size:19px;letter-spacing:.03em;white-space:nowrap}
+.logo .lg-t i{font-style:italic;color:var(--copL)}
+.logo .lg-s{font-size:9px;letter-spacing:.3em;text-transform:uppercase;color:#94897C}
+nav.top{display:flex;gap:2px}
+nav.top a{font-size:12px;font-weight:500;letter-spacing:.07em;text-transform:uppercase;padding:9px 11px;border-radius:8px;color:#C2B7A9;transition:.2s;white-space:nowrap}
+nav.top a:hover{color:var(--copL)}
+.hcall{display:flex;gap:10px;align-items:center;flex:none}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-weight:600;font-size:13px;letter-spacing:.04em;padding:12px 22px;border-radius:999px;transition:.25s;cursor:pointer;border:none;font-family:var(--sans)}
+.btn-acc{background:var(--cop);color:#fff}
+.btn-acc:hover{background:var(--copH)}
+.btn-ghost{border:1.5px solid rgba(244,241,236,.28);color:var(--conc)}
+.btn-ghost:hover{border-color:var(--copL);color:var(--copL)}
+.burger{display:none;background:none;border:1px solid var(--lined);border-radius:9px;padding:9px 10px;cursor:pointer}
+.burger span{display:block;width:20px;height:2px;background:var(--conc);margin:4px 0}
+.hero{min-height:100svh;display:flex;align-items:flex-end;padding:150px 0 60px;position:relative;overflow:hidden;background:var(--ink);color:var(--conc)}
+.hero .wrap{position:relative;z-index:2;width:100%}
+.hero::before{content:'';position:absolute;left:-160px;top:50%;width:560px;height:560px;margin-top:-280px;border-radius:50%;border:1.5px dashed rgba(184,115,51,.5);animation:spin 46s linear infinite}
+.hero::after{content:'';position:absolute;left:-40px;top:50%;width:320px;height:320px;margin-top:-160px;border-radius:50%;border:1.5px dashed rgba(184,115,51,.3);animation:spin 30s linear infinite reverse}
+.h-kick{display:inline-flex;align-items:center;gap:12px;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:#D8CFC4;border:1px solid rgba(244,241,236,.25);border-radius:999px;padding:10px 18px;background:rgba(26,23,20,.4)}
+.h-kick i{width:8px;height:8px;border-radius:50%;background:var(--copL);animation:blink 1.9s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+.hero h1{font-size:clamp(34px,6.4vw,88px);margin:26px 0 14px;max-width:900px}
+.hero h1 em{font-style:normal;color:var(--copL)}
+.h-sub{font-size:19px;color:#D5CCC1;max-width:620px;font-weight:300}
+.h-cta{display:flex;gap:14px;margin-top:36px;flex-wrap:wrap}
+.h-chips{display:flex;gap:10px;margin-top:34px;flex-wrap:wrap}
+.chip{font-size:12.5px;letter-spacing:.06em;padding:9px 16px;border-radius:999px;border:1px solid rgba(184,115,51,.45);color:var(--copL);background:rgba(184,115,51,.10)}
+.chip b{font-weight:700}
+.h-tel{display:flex;gap:26px;margin-top:34px;flex-wrap:wrap}
+.h-tel a{font-family:var(--disp);font-size:23px;color:var(--conc);border-bottom:1.5px solid rgba(210,154,99,.5);transition:.2s}
+.h-tel a:hover{color:var(--copL)}
+.marquee{overflow:hidden;border-top:1px solid var(--lined);border-bottom:1px solid var(--lined);padding:15px 0;background:var(--ink)}
+.mq-t{display:flex;width:max-content;animation:mq 36s linear infinite}
+.mq-t span{font-family:var(--disp);font-size:15px;letter-spacing:.08em;padding:0 26px;white-space:nowrap;color:#8A8074;text-transform:uppercase}
+.mq-t span i{font-style:normal;color:var(--copL);margin-left:26px}
+@keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+section.blk{padding:100px 0}
+.blk.dark{background:var(--ink);color:var(--conc)}
+.kick{font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:var(--cop);margin-bottom:18px;display:flex;align-items:center;gap:12px;font-weight:600}
+.kick::before{content:'';width:42px;height:1px;background:var(--cop)}
+h2{font-size:clamp(27px,4.6vw,56px)}
+h2 em{font-style:italic;color:var(--cop)}
+.lead{font-size:18px;color:#544B41;max-width:760px;margin-top:16px}
+.blk.dark .lead{color:#C2B7A9}
+/* use-cases grid */
+.uses{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-top:46px}
+.use{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px 24px;transition:transform .4s cubic-bezier(.16,1,.3,1),border-color .3s}
+.use:hover{transform:translateY(-5px);border-color:rgba(184,115,51,.5)}
+.use .u-ic{width:46px;height:46px;border-radius:12px;background:var(--copT);display:flex;align-items:center;justify-content:center;color:var(--cop);margin-bottom:14px}
+.use h3{font-size:17px;margin-bottom:6px;font-family:var(--sans);font-weight:700}
+.use p{font-size:14.5px;color:#6B6258}
+/* wow */
+.wow{background:var(--ink2);border-radius:22px;padding:clamp(18px,3vw,40px);color:var(--conc);position:relative;overflow:hidden;margin-top:48px}
+.wow svg{width:100%;height:auto;display:block}
+.wtabs{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.wtab{background:none;border:1.5px solid rgba(244,241,236,.2);color:#C2B7A9;font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;padding:9px 16px;border-radius:999px;cursor:pointer;transition:.25s;font-family:var(--sans)}
+.wtab:hover{border-color:rgba(210,154,99,.6)}
+.wtab.on{background:var(--cop);border-color:var(--cop);color:#fff}
+.wow-cap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:12px;font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:#7E746A}
+.wow-cap b{color:var(--copL);font-weight:600}
+/* diameters */
+.dias{margin-top:46px;display:flex;flex-wrap:wrap;gap:26px 34px;align-items:flex-end}
+.dia{text-align:center}
+.dia .c{border-radius:50%;background:radial-gradient(circle at 35% 30%,#3A342C,#231E19);border:2px solid var(--cop);display:flex;align-items:center;justify-content:center;margin:0 auto;transition:transform .4s}
+.dia:hover .c{transform:scale(1.08)}
+.dia .c span{font-family:var(--disp);color:var(--copL);font-size:13px}
+.dia .lab{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8A8074;margin-top:8px}
+.dia.max .c{border-color:var(--copL);box-shadow:0 0 26px rgba(184,115,51,.5)}
+.dia.max .lab{color:var(--copL);font-weight:700}
+.diascale{margin-top:34px;font-size:13.5px;color:#94897C;max-width:760px}
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:46px}
+.step{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px 24px;transition:transform .4s cubic-bezier(.16,1,.3,1),border-color .3s}
+.step:hover{transform:translateY(-5px);border-color:rgba(184,115,51,.5)}
+.step .s-n{font-family:var(--disp);font-size:44px;color:var(--cop);opacity:.9}
+.step h3{font-size:17px;margin:10px 0 8px;font-family:var(--sans);font-weight:700}
+.step p{font-size:14.5px;color:#6B6258}
+/* gallery */
+.galer{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin-top:44px}
+.gcell a{display:block;border-radius:14px;overflow:hidden;background:var(--conc2)}
+.gcell img{width:100%;aspect-ratio:3/4;object-fit:cover;transition:transform .6s cubic-bezier(.16,1,.3,1)}
+.gcell:hover img{transform:scale(1.06)}
+/* faq */
+.faq{max-width:860px;margin:44px auto 0}
+.q{border-bottom:1px solid var(--line)}
+.q button{width:100%;background:none;border:none;text-align:left;padding:22px 4px;font-family:var(--sans);font-size:17px;font-weight:600;color:var(--ink);cursor:pointer;display:flex;justify-content:space-between;gap:16px;align-items:center}
+.q button::after{content:'+';font-size:24px;color:var(--cop);transition:.3s;flex:none}
+.q.open button::after{transform:rotate(45deg)}
+.q .a{max-height:0;overflow:hidden;transition:max-height .45s cubic-bezier(.16,1,.3,1)}
+.q .a p{padding:0 4px 22px;color:#544B41;font-size:15.5px}
+/* contacts */
+.ccard{background:var(--ink2);border:1px solid var(--lined);border-radius:18px;padding:30px}
+.ccard .ctel{font-family:var(--disp);font-size:30px;display:block;color:var(--conc);transition:.2s}
+.ccard .ctel:hover{color:var(--copL)}
+.frm{display:grid;gap:13px;max-width:620px}
+form label{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:#94897C;display:block;margin-bottom:6px;font-weight:700}
+form input,form select,form textarea{width:100%;background:var(--ink2);border:1px solid var(--lined);border-radius:11px;padding:13px 15px;font-size:15.5px;font-family:var(--sans);color:var(--conc)}
+form input::placeholder,form textarea::placeholder{color:#7E746A}
+form input:focus,form select:focus,form textarea:focus{outline:none;border-color:var(--copL)}
+.ok-msg{display:none;background:rgba(184,115,51,.22);color:var(--copL);border:1px solid rgba(210,154,99,.5);border-radius:11px;padding:13px 15px;font-size:14px;font-weight:600}
+footer{background:var(--ink);color:#8A8074;padding:52px 0 130px;font-size:14px}
+.ft{display:flex;justify-content:space-between;gap:26px;flex-wrap:wrap;margin-bottom:26px}
+.ft .ft-logo{font-family:var(--disp);font-size:21px;color:var(--conc)}
+.ft .ft-logo i{font-style:italic;color:var(--copL)}
+.fnav{display:flex;gap:20px;flex-wrap:wrap;max-width:560px}
+.fnav a{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#94897C}
+.fnav a:hover{color:var(--copL)}
+.wm-line{border-top:1px solid var(--lined);padding-top:18px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:11.5px}
+.wa-fab{position:fixed;left:16px;bottom:16px;z-index:9990;display:flex;align-items:center;gap:10px;background:#25D366;color:#fff;font-weight:700;font-size:12.5px;padding:13px 20px;border-radius:999px;box-shadow:0 8px 24px rgba(0,0,0,.3)}
+.wa-fab:hover{background:#1FB95A}
+.lbbox{display:none;position:fixed;inset:0;z-index:9995;background:rgba(20,16,12,.92);align-items:center;justify-content:center;padding:26px}
+.lbbox.on{display:flex}
+.lbbox img{max-width:92vw;max-height:88vh;border-radius:10px}
+.lbbox button{position:absolute;top:20px;right:24px;background:none;border:none;color:#F4F1EC;font-size:38px;cursor:pointer;line-height:1}
+.fx{opacity:0;transform:translateY(26px)}
+body.js .fx{transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}
+body.js .fx.in{opacity:1;transform:none}
+.d1{transition-delay:.08s!important}.d2{transition-delay:.16s!important}.d3{transition-delay:.24s!important}
+@media(max-width:1060px){.steps{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:900px){.hrow{min-height:62px}nav.top{position:absolute;top:100%;left:0;right:0;background:var(--ink);border-bottom:1px solid var(--lined);flex-direction:column;align-items:stretch;padding:12px 28px;display:none}nav.top.open{display:flex}nav.top a{padding:11px 0}.burger{display:block}.hcall .btn-ghost{display:none}}
+@media(max-width:600px){.hcall{display:none}footer{padding-bottom:160px}section.blk{padding:66px 0}.steps{grid-template-columns:1fr}.h-tel a{font-size:19px}}
+</style>
+</head>
+<body>
+<div class="wm"></div>
+<div class="wbadge">МАКЕТ: SiteFast.by</div>
+<div class="cur-dot" id="cdot"></div><div class="cur-ring" id="cring"></div>
+<header>
+  <div class="hrow">
+    <a href="#" class="logo">
+      <div class="ring">Ø</div>
+      <div><div class="lg-t">Мартишко <i>· алмазное бурение</i></div><div class="lg-s">отверстия 30–350 мм · Волковыск</div></div>
+    </a>
+    <nav class="top" id="nav">
+      <a href="#uses">Зачем бурят</a>
+      <a href="#tech">Как это работает</a>
+      <a href="#dias">Диаметры</a>
+      <a href="#works">Фото работ</a>
+      <a href="#faq">Вопросы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="hcall">
+      <a href="tel:+375291414856" class="btn btn-ghost">+375 29 141-48-56</a>
+      <a href="#contacts" class="btn btn-acc">Узнать цену</a>
+      <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<main>
+<section class="hero">
+  <div class="wrap">
+    <span class="h-kick"><i></i>ИП Мартишко Ф.И. · Волковыск · алмазная станция</span>
+    <h1>Круглое отверстие <em id="hhw">в бетоне</em> — быстро и точно</h1>
+    <p class="h-sub">Бурение отверстий алмазной станцией в дереве, газоблоке, кирпиче, бетоне и армированном бетоне. Диаметры от 30 до 350 мм.</p>
+    <div class="h-cta">
+      <a href="tel:+375291414856" class="btn btn-acc">Позвонить: цена договорная</a>
+      <a href="#dias" class="btn btn-ghost">Диаметры 30–350 мм</a>
+    </div>
+    <div class="h-chips">
+      <span class="chip">НОВОЕ: до <b>Ø 350 мм</b></span>
+      <span class="chip">без удара и трещин</span>
+      <span class="chip">вода вместо пыли</span>
+    </div>
+    <div class="h-tel">
+      <a href="tel:+375291414856">+375 29 141-48-56</a>
+    </div>
+  </div>
+</section>
+<div class="marquee"><div class="mq-t">
+<span>ДЕРЕВО <i>✦</i> ГАЗОБЛОК <i>✦</i> КИРПИЧ <i>✦</i> БЕТОН <i>✦</i> АРМИРОВАННЫЙ БЕТОН <i>✦</i> Ø 30–200 ММ <i>✦</i> НОВОЕ: ДО 350 ММ <i>✦</i> </span>
+<span>ДЕРЕВО <i>✦</i> ГАЗОБЛОК <i>✦</i> КИРПИЧ <i>✦</i> БЕТОН <i>✦</i> АРМИРОВАННЫЙ БЕТОН <i>✦</i> Ø 30–200 ММ <i>✦</i> НОВОЕ: ДО 350 ММ <i>✦</i> </span>
+</div></div>
+
+<section class="blk" id="uses">
+<div class="wrap">
+  <div class="kick">Зачем бурят</div>
+  <h2>Отверстие в стене — <em>это коммуникации</em></h2>
+  <p class="lead">Алмазная коронка режет круглое отверстие точно по разметке, без удара и разрушения материала. Типовые задачи, с которыми звонят:</p>
+  <div class="uses">
+    <div class="use fx"><div class="u-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M7 8v8M17 8v8"/></svg></div><h3>Вентиляция и вытяжка</h3><p>Вентканалы и вытяжные отверстия в стенах и перекрытиях.</p></div>
+    <div class="use fx d1"><div class="u-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M12 2v4M2 12h4M18 12h4M12 18v4"/></svg></div><h3>Кондиционер</h3><p>Проход фреоновой трассы и дренажа сквозь стену.</p></div>
+    <div class="use fx d2"><div class="u-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20V9l8-5 8 5v11"/><path d="M9 20v-6h6v6"/></svg></div><h3>Дымоход и котёл</h3><p>Отверстия под дымоходы и подключение котельного оборудования.</p></div>
+    <div class="use fx"><div class="u-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/><circle cx="7" cy="12" r="1.5"/><circle cx="14" cy="7" r="1.5"/></svg></div><h3>Вода и канализация</h3><p>Ввод трубы в дом, фановые стояки, вывод стоков.</p></div>
+    <div class="use fx d1"><div class="u-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3v10a3 3 0 006 0V3"/><path d="M12 16v5"/></svg></div><h3>Кабельные вводы</h3><p>Ввод электрики и слаботочки в дом без скола угла.</p></div>
+    <div class="use fx d2"><div class="u-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 20l7-7 3 3 8-8"/><path d="M15 8h6v6"/></svg></div><h3>Фундамент и перекрытия</h3><p>Проходы в бетонных конструкциях, в т.ч. армированных.</p></div>
+  </div>
+</div>
+</section>
+
+<section class="blk dark" id="tech">
+<div class="wrap">
+  <div class="kick" style="color:var(--copL)">Технология</div>
+  <h2 style="color:var(--conc)">Коронка проходит стену <em>насквозь</em></h2>
+  <p class="lead">Алмазная коронка вращается и режет кольцевую штробу — внутри остаётся цельный керн. Без удара, трещин и лишней пыли.</p>
+  <div class="wow" id="wowbox">
+    <div class="wtabs">
+      <button class="wtab on" data-w="concrete">Бетон</button>
+      <button class="wtab" data-w="rebar">Ж/Б с арматурой</button>
+      <button class="wtab" data-w="brick">Кирпич</button>
+      <button class="wtab" data-w="wood">Дерево</button>
+      <button class="wtab" data-w="foam">Газоблок</button>
+    </div>
+    <svg viewBox="0 0 900 430" role="img" aria-label="Алмазная коронка бурит стену насквозь">
+      <!-- стена -->
+      <g id="wallG">
+        <rect x="330" y="60" width="240" height="330" fill="#39332B" stroke="#4E473D" stroke-width="2"/>
+        <g id="wallTex"></g>
+      </g>
+      <!-- арматура -->
+      <rect id="rebarA" x="330" y="196" width="240" height="12" fill="#5A5450" opacity="0"/>
+      <!-- кольцевая штроба (маска выреза) -->
+      <rect id="cutTop" x="408" y="60" width="84" height="0" fill="#171310"/>
+      <rect id="cutBot" x="408" y="390" width="84" height="0" fill="#171310"/>
+      <!-- керн -->
+      <g id="coreG" opacity="0">
+        <rect id="coreR" x="408" y="196" width="84" height="128" fill="#39332B" stroke="#4E473D"/>
+        <path d="M424 196 l0 128 M450 196 l0 128 M476 196 l0 128" stroke="#2E2924" stroke-width="3" id="coreTex"/>
+      </g>
+      <!-- коронка -->
+      <g id="crownG">
+        <rect id="crownBody" x="428" y="-90" width="44" height="190" fill="#8B857C" stroke="#A79F94" stroke-width="2"/>
+        <rect x="428" y="-90" width="44" height="26" fill="#B87333" opacity="0" id="crownSpark"/>
+        <g id="crownSeg" transform="rotate(0 450 100)">
+          <rect x="428" y="86" width="10" height="16" fill="#D29A63"/>
+          <rect x="442" y="86" width="10" height="16" fill="#D29A63"/>
+          <rect x="456" y="86" width="10" height="16" fill="#D29A63"/>
+          <rect x="470" y="86" width="10" height="16" fill="#D29A63"/>
+        </g>
+        <rect x="446" y="10" width="8" height="40" fill="#6B6560"/>
+      </g>
+      <!-- подача: коронка едет вниз -->
+      <!-- вода -->
+      <g id="waterG" opacity="0">
+        <path d="M432 60 q-4 14 0 26 q4 12 -2 22" stroke="#6FB7C9" stroke-width="3" fill="none" opacity=".7"/>
+        <path d="M468 60 q4 14 0 26 q-4 12 2 22" stroke="#6FB7C9" stroke-width="3" fill="none" opacity=".7"/>
+        <ellipse cx="428" cy="398" rx="34" ry="7" fill="#6FB7C9" opacity=".25"/>
+        <ellipse cx="474" cy="404" rx="40" ry="8" fill="#6FB7C9" opacity=".18"/>
+      </g>
+      <!-- искры арматуры -->
+      <g id="sparkG" opacity="0">
+        <path d="M450 202 l-12 -8 M450 202 l14 -6 M450 202 l-8 -14 M450 202 l10 10" stroke="#F2C14E" stroke-width="2.5"/>
+      </g>
+      <!-- счётчики -->
+      <text x="640" y="150" font-size="12" fill="#7E746A" letter-spacing="3" font-family="Exo 2">ГЛУБИНА</text>
+      <text id="wDepth" x="638" y="192" font-size="42" fill="#F4F1EC" font-family="Philosopher">0 мм</text>
+      <text x="640" y="234" font-size="12" fill="#7E746A" letter-spacing="3" font-family="Exo 2">ДИАМЕТР</text>
+      <text id="wDia" x="638" y="270" font-size="30" fill="#D29A63" font-family="Philosopher">350 мм</text>
+      <text x="640" y="312" font-size="12" fill="#7E746A" letter-spacing="3" font-family="Exo 2">МАТЕРИАЛ</text>
+      <text id="wMat" x="638" y="338" font-size="19" fill="#C2B7A9" font-family="Philosopher">БЕТОН</text>
+      <!-- штамп -->
+      <g id="wStamp" opacity="0" transform="rotate(-5 170 70)">
+        <rect x="42" y="38" width="262" height="56" rx="10" fill="none" stroke="#D29A63" stroke-width="2.5"/>
+        <text x="173" y="63" font-size="14" fill="#D29A63" text-anchor="middle" letter-spacing="3" font-weight="700" font-family="Exo 2">ОТВЕРСТИЕ ГОТОВО</text>
+        <text x="173" y="82" font-size="10" fill="#D29A63" text-anchor="middle" letter-spacing="2" font-family="Exo 2">МАРТИШКО · АЛМАЗНАЯ СТАНЦИЯ · ВОЛКОВЫСК</text>
+      </g>
+      <text id="wPhase" x="42" y="418" font-size="12.5" fill="#94897C" letter-spacing="3" font-family="Exo 2">РАЗМЕТКА И ЗАКРЕПЛЕНИЕ СТАНЦИИ</text>
+    </svg>
+    <div class="wow-cap"><span>Кольцевая штроба → керн внутри → сквозной проход → отверстие готово</span><b>Цикл ~5.4 с</b></div>
+  </div>
+  <div class="steps">
+    <div class="step2 fx" style="background:var(--ink2);border:1px solid var(--lined);border-radius:18px;padding:28px 24px"><div class="s-n disp" style="font-family:var(--disp);font-size:44px;color:var(--copL)">01</div><h3 style="color:var(--conc);font-size:17px;margin:10px 0 8px;font-weight:700">Разметка и установка</h3><p style="font-size:14.5px;color:#94897C">Станция крепится к основанию — бур пойдёт точно по разметке.</p></div>
+    <div class="fx d1" style="background:var(--ink2);border:1px solid var(--lined);border-radius:18px;padding:28px 24px"><div class="disp" style="font-family:var(--disp);font-size:44px;color:var(--copL)">02</div><h3 style="color:var(--conc);font-size:17px;margin:10px 0 8px;font-weight:700">Бурение с водяным охлаждением</h3><p style="font-size:14.5px;color:#94897C">Алмазная коронка режет кольцо, вода охлаждает рез — минимум пыли.</p></div>
+    <div class="fx d2" style="background:var(--ink2);border:1px solid var(--lined);border-radius:18px;padding:28px 24px"><div class="disp" style="font-family:var(--disp);font-size:44px;color:var(--copL)">03</div><h3 style="color:var(--conc);font-size:17px;margin:10px 0 8px;font-weight:700">Керн выходит насквозь</h3><p style="font-size:14.5px;color:#94897C">Цельный столбик материала извлекается — стену не выбивает изнутри.</p></div>
+    <div class="fx d3" style="background:var(--ink2);border:1px solid var(--lined);border-radius:18px;padding:28px 24px"><div class="disp" style="font-family:var(--disp);font-size:44px;color:var(--copL)">04</div><h3 style="color:var(--conc);font-size:17px;margin:10px 0 8px;font-weight:700">Чисто и точно</h3><p style="font-size:14.5px;color:#94897C">Ровное круглое отверстие без трещин — сразу под трубу или гильзу.</p></div>
+  </div>
+</div>
+</section>
+<section class="blk" id="dias">
+<div class="wrap">
+  <div class="kick">Диаметры</div>
+  <h2>От 30 до <em>350 миллиметров</em></h2>
+  <p class="lead">Бурим отверстия от 30 до 200 мм. Появилась услуга — отверстия до 350 мм. Кому интересно — звоните.</p>
+  <div class="dias">
+    <div class="dia fx"><div class="c" style="width:30px;height:30px"><span></span></div><div class="lab">Ø 30 мм</div></div>
+    <div class="dia fx d1"><div class="c" style="width:52px;height:52px"><span>50</span></div><div class="lab">Ø 50 мм</div></div>
+    <div class="dia fx"><div class="c" style="width:78px;height:78px"><span>75</span></div><div class="lab">Ø 75 мм</div></div>
+    <div class="dia fx d1"><div class="c" style="width:104px;height:104px"><span>100</span></div><div class="lab">Ø 100 мм</div></div>
+    <div class="dia fx d2"><div class="c" style="width:156px;height:156px"><span>150</span></div><div class="lab">Ø 150 мм</div></div>
+    <div class="dia fx"><div class="c" style="width:208px;height:208px"><span>200</span></div><div class="lab">Ø 200 мм</div></div>
+    <div class="dia fx d1"><div class="c" style="width:286px;height:286px"><span>275</span></div><div class="lab">Ø 275 мм</div></div>
+    <div class="dia max fx d2"><div class="c" style="width:364px;height:364px"><span>350</span></div><div class="lab">Ø 350 мм · новое</div></div>
+  </div>
+  <p class="diascale fx">Масштаб условный: круг 30 мм показан не меньше реального. Диаметр подбирается под конкретную задачу — трубу, гильзу, канал.</p>
+</div>
+</section>
+
+<section class="blk dark" id="works" style="background:var(--ink)">
+<div class="wrap">
+  <div class="kick" style="color:var(--copL)">Фото из объявления</div>
+  <h2 style="color:var(--conc)">Станция, отверстия <em>и работы</em></h2>
+  <div class="galer">
+    <div class="gcell"><a href="img/49b4e7dd-398e-48ff-ab4c-15426bfe4c66.jpg" data-lb><img src="img/49b4e7dd-398e-48ff-ab4c-15426bfe4c66.jpg" alt="Алмазное бурение — фото из объявления" loading="lazy"></a></div>
+    <div class="gcell"><a href="img/922ffdac-bce0-4a68-8df7-4db8c5b8753e.jpg" data-lb><img src="img/922ffdac-bce0-4a68-8df7-4db8c5b8753e.jpg" alt="Бурение отверстий — фото из объявления" loading="lazy"></a></div>
+    <div class="gcell"><a href="img/9fbb0b74-1d84-49c6-8707-8fd0f6571bbd.jpg" data-lb><img src="img/9fbb0b74-1d84-49c6-8707-8fd0f6571bbd.jpg" alt="Отверстие в бетоне — фото из объявления" loading="lazy"></a></div>
+    <div class="gcell"><a href="img/eb376676-1ce4-428e-bdad-7d862de43ee0.jpg" data-lb><img src="img/eb376676-1ce4-428e-bdad-7d862de43ee0.jpg" alt="Алмазная коронка — фото из объявления" loading="lazy"></a></div>
+    <div class="gcell"><a href="img/ed849b3b-7675-4dd9-92d2-9d7fc2f0d838.jpg" data-lb><img src="img/ed849b3b-7675-4dd9-92d2-9d7fc2f0d838.jpg" alt="Бурение в кирпиче — фото из объявления" loading="lazy"></a></div>
+    <div class="gcell"><a href="img/f0c5872b-5d42-4d7b-87ff-b603307f3a5a.jpg" data-lb><img src="img/f0c5872b-5d42-4d7b-87ff-b603307f3a5a.jpg" alt="Готовое отверстие — фото из объявления" loading="lazy"></a></div>
+    <div class="gcell"><a href="img/f35abb39-62fd-4431-af48-1c22d654d7cb.jpg" data-lb><img src="img/f35abb39-62fd-4431-af48-1c22d654d7cb.jpg" alt="Работа алмазной станции — фото из объявления" loading="lazy"></a></div>
+  </div>
+</div>
+</section>
+
+<section class="blk" id="faq">
+<div class="wrap">
+  <div class="kick">Вопросы</div>
+  <h2>Частые вопросы <em>о бурении</em></h2>
+  <div class="faq">
+    <div class="q"><button>Сколько стоит бурение отверстия?</button><div class="a"><p>Цена договорная: зависит от материала (дерево, газоблок, кирпич, бетон или армированный бетон), диаметра отверстия и их количества. Позвоните — обсудим задачу и назовём цену.</p></div></div>
+    <div class="q"><button>Что значит «алмазная станция»?</button><div class="a"><p>Это профессиональное оборудование с алмазными коронками. Станция крепится к стене, бур идёт точно по разметке — без удара и перекоса, а стене ничего не грозит.</p></div></div>
+    <div class="q"><button>Правда, что теперь до 350 мм?</button><div class="a"><p>Да, появилась услуга бурения отверстий до 350 мм. Кому интересно — звоните: +375 29 141-48-56.</p></div></div>
+    <div class="q"><button>Будет ли много пыли и шума?</button><div class="a"><p>Алмазное бурение — безударное: коронка режет кольцо, а не долбит стену. Бурение идёт с водяным охлаждением, поэтому пыли минимум, а звук тише перфоратора.</p></div></div>
+    <div class="q"><button>В каких материалах бурите?</button><div class="a"><p>Дерево, газоблок, кирпич, бетон, армированный бетон. Диаметры от 30 до 350 мм.</p></div></div>
+    <div class="q"><button>Работаете только в Волковыске?</button><div class="a"><p>База — Волковыск. Выезд в соседние города и по Гродненской области обсуждается по телефону: расскажите, где объект, и договоримся.</p></div></div>
+  </div>
+</div>
+</section>
+
+<section class="blk dark" id="contacts">
+<div class="wrap">
+  <div class="kick" style="color:var(--copL)">Контакты</div>
+  <h2 style="color:var(--conc)">Расскажите, где бурить — <em>назовём цену</em></h2>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:46px 0 40px" class="cgrid">
+    <div class="ccard fx">
+      <div style="font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--copL);font-weight:700">Телефон · WhatsApp · Viber</div>
+      <a class="ctel" href="tel:+375291414856">+375 29 141-48-56</a>
+      <p style="font-size:13px;color:#94897C;margin-top:6px">Звоните или пишите в мессенджер — ответим по цене</p>
+    </div>
+    <div class="ccard fx d1">
+      <div style="font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--copL);font-weight:700">Исполнитель</div>
+      <div class="ctel disp" style="font-family:var(--disp)">ИП Мартишко Ф.И.</div>
+      <p style="font-size:13px;color:#94897C;margin-top:6px">г. Волковыск · алмазная станция · Ø 30–350 мм</p>
+    </div>
+  </div>
+  <h3 style="font-size:22px;color:var(--conc);margin-bottom:22px;font-weight:700">Заявка на бурение</h3>
+  <form id="jform" novalidate>
+    <div class="frm">
+      <div><label for="f-name">Ваше имя</label><input id="f-name" required placeholder="Как к вам обращаться"></div>
+      <div><label for="f-tel">Телефон</label><input id="f-tel" required placeholder="+375 __ ___-__-__"></div>
+      <div><label for="f-mat">Материал стены</label><select id="f-mat"><option>Бетон</option><option>Армированный бетон</option><option>Кирпич</option><option>Газоблок</option><option>Дерево</option><option>Другое / не знаю</option></select></div>
+      <div><label for="f-dia">Диаметр</label><select id="f-dia"><option>30–100 мм</option><option>100–200 мм</option><option>200–350 мм (новая услуга)</option><option>Подскажете на месте</option></select></div>
+      <div><label for="f-msg">Задача</label><textarea id="f-msg" placeholder="Что за отверстие, где объект (город), толщина стены..."></textarea></div>
+      <button class="btn btn-acc" type="submit">Отправить заявку</button>
+      <div class="ok-msg" id="fok">Спасибо! Перезвоним и обсудим цену и время выезда.</div>
+    </div>
+  </form>
+  <p style="margin-top:30px;font-size:13.5px;color:#94897C">ИП Мартишко Ф.И. · г. Волковыск · бурение отверстий алмазной станцией · цена договорная</p>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap">
+<div class="ft">
+  <div>
+    <div class="ft-logo">Мартишко <i>· алмазное бурение</i></div>
+    <div style="font-size:12px;margin-top:8px;letter-spacing:.2em;text-transform:uppercase">отверстия 30–350 мм · Волковыск</div>
+    <div style="margin-top:14px"><a href="tel:+375291414856" style="color:var(--copL);font-family:var(--disp);font-size:17px">+375 29 141-48-56</a></div>
+  </div>
+  <div class="fnav">
+    <a href="#uses">Зачем бурят</a><a href="#tech">Как это работает</a><a href="#dias">Диаметры</a><a href="#works">Фото</a><a href="#faq">Вопросы</a><a href="#contacts">Контакты</a>
+  </div>
+</div>
+<div class="wm-line">
+  <span>г. Волковыск · алмазная станция · без удара и пыли</span>
+  <span>Макет подготовлен SiteFast.by</span>
+</div>
+</div>
+</footer>
+<a class="wa-fab" href="https://wa.me/375291414856" target="_blank" rel="noopener" aria-label="WhatsApp">
+<svg width="17" height="17" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.4 14.1c-.2.7-1.3 1.3-1.8 1.3-.5.1-1.1.1-1.8-.1a13 13 0 01-4.2-2.6 11 11 0 01-2.3-3.5c-.2-.6-.3-1.2-.1-1.7.2-.5.9-1.2 1.4-1.2.3 0 .6 0 .8.6l.7 1.6c.1.2 0 .5-.1.7l-.4.6c-.1.2-.2.3 0 .6.5.9 1.1 1.6 2 2.2.6.5 1.1.8 1.6 1 .3.1.5 0 .6-.1l.7-.8c.2-.2.4-.2.6-.1l1.6.8c.5.2.4.5.4.7z"/></svg>
+<span>WhatsApp</span>
+</a>
+<div class="lbbox" id="lbbox"><button id="lbclose" aria-label="Закрыть">×</button><img id="lbimg" alt=""></div>
+<script>
+document.body.classList.add('js');
+function scanReveal(){
+  var els=document.querySelectorAll('.fx:not(.in)'), vh=window.innerHeight||800;
+  for(var i=0;i<els.length;i++){
+    var r=els[i].getBoundingClientRect();
+    if(r.top<vh-40&&r.bottom>0) els[i].classList.add('in');
+  }
+}
+setInterval(scanReveal,400); scanReveal();
+document.getElementById('burger').addEventListener('click',function(){document.getElementById('nav').classList.toggle('open')});
+document.querySelectorAll('nav.top a').forEach(function(a){a.addEventListener('click',function(){document.getElementById('nav').classList.remove('open')})});
+(function(){
+  var c=document.getElementById('cdot'), r=document.getElementById('cring');
+  if(!c||!window.matchMedia('(pointer:fine)').matches) return;
+  var x=-100,y=-100,rx=-100,ry=-100;
+  document.addEventListener('mousemove',function(e){x=e.clientX;y=e.clientY;c.style.left=x+'px';c.style.top=y+'px';});
+  (function loop(){rx+=(x-rx)*.16;ry+=(y-ry)*.16;r.style.left=rx+'px';r.style.top=ry+'px';requestAnimationFrame(loop);})();
+  document.querySelectorAll('a,button,.gcell,.use,.dia,.q').forEach(function(el){
+    el.addEventListener('mouseenter',function(){r.classList.add('big')});
+    el.addEventListener('mouseleave',function(){r.classList.remove('big')});
+  });
+})();
+(function(){
+  var w=document.getElementById('hhw');
+  if(!w) return;
+  var words=['в бетоне','в железобетоне','в кирпиче','в дереве','в газоблоке'], i=0;
+  w.style.transition='opacity .38s';
+  setInterval(function(){ i=(i+1)%words.length; w.style.opacity=0; setTimeout(function(){w.textContent=words[i];w.style.opacity=1;},380); },3200);
+})();
+document.querySelectorAll('.q button').forEach(function(b){
+  b.addEventListener('click',function(){
+    var q=b.parentElement, a=q.querySelector('.a');
+    var open=q.classList.contains('open');
+    document.querySelectorAll('.q.open').forEach(function(o){o.classList.remove('open');o.querySelector('.a').style.maxHeight=0;});
+    if(!open){q.classList.add('open');a.style.maxHeight=a.scrollHeight+'px';}
+  });
+});
+/* ВАУ: коронка проходит стену насквозь */
+(function(){
+  var box=document.getElementById('wowbox'); if(!box) return;
+  var g=function(id){return document.getElementById(id)};
+  var crown=g('crownG'), seg=g('crownSeg'), cut=g('cutTop'), core=g('coreG'), coreR=g('coreR'),
+      water=g('waterG'), spark=g('sparkG'), stamp=g('wStamp'), depth=g('wDepth'),
+      mat=g('wMat'), phase=g('wPhase'), tex=g('wallTex'), rebarA=g('rebarA');
+  var WALL={x:330,y:60,w:240,h:330};
+  var MATS={
+    concrete:{label:'БЕТОН',fill:'#39332B',tex:'dots',rebar:false},
+    rebar:{label:'Ж/Б · АРМАТУРА',fill:'#39332B',tex:'dots',rebar:true},
+    brick:{label:'КИРПИЧ',fill:'#4A2E24',tex:'bricks',rebar:false},
+    wood:{label:'ДЕРЕВО',fill:'#4A3626',tex:'wood',rebar:false},
+    foam:{label:'ГАЗОБЛОК',fill:'#55504A',tex:'foam',rebar:false}
+  };
+  function buildTex(name,fill){
+    var h='';
+    if(name==='bricks'){
+      for(var r=0;r<11;r++){ for(var cB=0;cB<3;cB++){ var ox=(r%2)*-40; h+='<rect x="'+(334+cB*84+ox)+'" y="'+(64+r*29)+'" width="80" height="26" fill="'+fill+'" stroke="rgba(0,0,0,.35)" stroke-width="2"/>'; } }
+    } else if(name==='wood'){
+      for(r=0;r<12;r++){ h+='<path d="M332 '+(66+r*27)+' q120 -6 236 0" stroke="rgba(0,0,0,.30)" stroke-width="3" fill="none"/>'; }
+    } else if(name==='foam'){
+      for(r=0;r<44;r++){ var px=334+Math.random()*228, py=64+Math.random()*320; h+='<circle cx="'+px+'" cy="'+py+'" r="'+(3+Math.random()*4)+'" fill="rgba(0,0,0,.28)"/>'; }
+    } else {
+      for(r=0;r<60;r++){ px=334+Math.random()*230; py=64+Math.random()*320; h+='<circle cx="'+px+'" cy="'+py+'" r="'+(1.2+Math.random()*2)+'" fill="rgba(244,241,236,.12)"/>'; }
+    }
+    return h;
+  }
+  var MODE='concrete';
+  function setMode(m){
+    MODE=m; var M=MATS[m];
+    tex.innerHTML=buildTex(M.tex,M.fill);
+    rebarA.setAttribute('opacity', M.rebar?1:0);
+    mat.textContent=M.label;
+  }
+  setMode('concrete');
+  document.querySelectorAll('.wtab').forEach(function(t){
+    t.addEventListener('click',function(){
+      document.querySelectorAll('.wtab').forEach(function(x){x.classList.remove('on')});
+      t.classList.add('on');
+      setMode(t.getAttribute('data-w'));
+    });
+  });
+  var PH=[['РАЗМЕТКА И ЗАКРЕПЛЕНИЕ СТАНЦИИ',0,.12],['БУРЕНИЕ С ВОДЯНЫМ ОХЛАЖДЕНИЕМ',.12,.88],['КЕРН ВЫХОДИТ НАСКВОЗЬ',.88,.96],['ОТВЕРСТИЕ ГОТОВО',.96,1.01]];
+  var q=0,dir=1,inView=true,holdUntil=0,lastT=performance.now(),CYCLE=5400,HOLD=12000,angle=0;
+  function clamp(v,a,b){return Math.min(1,Math.max(0,(v-a)/(b-a)))}
+  function renderQ(v){
+    q=v;
+    /* подача коронки: 0→0.88 фаза бурения */
+    var feed=clamp(v,.12,.88);
+    var ty=feed*WALL.h; /* 0→330 */
+    crown.setAttribute('transform','translate(0,'+ty+')');
+    /* штроба растёт за коронкой */
+    var d=ty;
+    cut.setAttribute('height',Math.max(0,d));
+    /* керн виден в пропиле пока не вышел */
+    if(v>.88){
+      var drop=clamp(v,.88,.96);
+      core.setAttribute('opacity',1);
+      core.setAttribute('transform','translate(0,'+(drop*120)+') rotate('+(drop*8)+' 450 260)');
+      core.setAttribute('opacity',1-drop*.6);
+    } else {
+      core.setAttribute('opacity', v>.7?.9:0);
+      core.setAttribute('transform','translate(0,0)');
+      coreR.setAttribute('height',Math.max(20,d-40));
+    }
+    /* вода */
+    water.setAttribute('opacity', v>.14&&v<.94?1:0);
+    /* арматура: искры при tip на уровне 196..212 */
+    var tip=100+ty;
+    if(MATS[MODE].rebar){
+      if(tip>150&&tip<212){ spark.setAttribute('opacity',(Math.sin(performance.now()/60)*.5+.5)); }
+      else spark.setAttribute('opacity',0);
+      rebarA.setAttribute('transform', tip>=212?'translate(0,4)':'');
+    } else spark.setAttribute('opacity',0);
+    /* счётчики */
+    depth.textContent=Math.round(clamp(v,.12,.88)*520)+' мм';
+    /* фаза */
+    for(var k=0;k<PH.length;k++){ if(v>=PH[k][1]&&v<PH[k][2]){phase.textContent=PH[k][0];break;} }
+    stamp.setAttribute('opacity', v>.965?1:0);
+  }
+  function tick(t){
+    var dt=t-lastT; lastT=t;
+    /* вращение коронки */
+    var spinning=inView&&t>holdUntil?4.2:0.8;
+    angle=(angle+spinning)%360;
+    if(seg) seg.setAttribute('transform','rotate('+angle+' 450 100)');
+    if(inView&&t>holdUntil){
+      q+=dir*dt/CYCLE;
+      if(q>=1){q=1;dir=-1;holdUntil=t+HOLD;}
+      else if(q<=0){q=0;dir=1;}
+      renderQ(q);
+    }
+    requestAnimationFrame(tick);
+  }
+  renderQ(0); requestAnimationFrame(tick);
+  setInterval(function(){
+    var r=box.getBoundingClientRect();
+    inView=(r.top<(window.innerHeight||800)-40&&r.bottom>40);
+  },500);
+  window.__wow={renderQ:renderQ,setMode:setMode,state:function(){
+    return {q:q.toFixed(2),depth:depth.textContent,stamp:stamp.getAttribute('opacity'),mode:MODE,cut:cut.getAttribute('height'),mat:mat.textContent};
+  }};
+})();
+(function(){
+  var lb=document.getElementById('lbbox'), im=document.getElementById('lbimg');
+  document.addEventListener('click',function(e){
+    var a=e.target.closest('a[data-lb]');
+    if(a){e.preventDefault(); im.src=a.getAttribute('href'); lb.classList.add('on');}
+  });
+  document.getElementById('lbclose').addEventListener('click',function(){lb.classList.remove('on')});
+  lb.addEventListener('click',function(e){if(e.target===lb)lb.classList.remove('on')});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')lb.classList.remove('on')});
+})();
+(function(){
+  var f=document.getElementById('jform'); if(!f) return;
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var ok=true;
+    ['f-name','f-tel'].forEach(function(id){
+      var el=document.getElementById(id);
+      if(!el.value.trim()){ok=false;el.style.borderColor='#D05A5A'}else{el.style.borderColor=''}
+    });
+    if(!ok) return;
+    document.getElementById('fok').style.display='block';
+    f.reset();
+  });
+})();
+</script>
+<script>window.__ok=1;</script>
+</body>
+</html>
